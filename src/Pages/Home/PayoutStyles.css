@@ -1,0 +1,96 @@
+.payout-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.sum, .mgp {
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.sum {
+    width: 20%;
+    text-align: center;
+}
+
+.mgp {
+    width: 30%;
+}
+
+.mgp > div {
+    text-align: end;
+}
+
+.mgp-title {
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    /*    .payout-title{*/
+    /*        font-size: 20px;*/
+    /*    }*/
+    /*    .sum, .mgp{*/
+    /*        font-size: 14px;*/
+    /*    }*/
+    /*    .sum{*/
+    /*        width: 20%;*/
+    /*        text-align: center;*/
+    /*    }*/
+    /*    .mgp{*/
+    /*        width: 30%;*/
+    /*    }*/
+    /*    .mgp > div{*/
+    /*        text-align: end;*/
+    /*    }*/
+    /*    .mgp-title{*/
+    /*        text-align: center;*/
+    /*    }*/
+    /*}*/
+}
+
+@media (max-width: 1200px) {
+    /*.payout-title{*/
+    /*    font-size: 18px;*/
+    /*}*/
+    /*.sum, .mgp{*/
+    /*    font-size: 12px;*/
+    /*}*/
+    /*.sum{*/
+    /*    width: 20%;*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.mgp{*/
+    /*    width: 30%;*/
+    /*}*/
+    /*.mgp > div{*/
+    /*    text-align: end;*/
+    /*}*/
+    /*.mgp-title{*/
+    /*    text-align: center;*/
+    /*}*/
+}
+
+@media (max-width: 992px) {
+    .payout-title {
+        font-size: 18px;
+    }
+
+    .sum, .mgp {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:767px){
+    .payout-title {
+        font-size: 16px;
+    }
+
+    .sum, .mgp {
+        font-size: 12px;
+    }
+
+    .mgp-title, .sum-title{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,24 @@
+.stats-box{
+    height: 60%;
+    width: 90%;
+    font-family: "Cinzel", Helvetica, serif;
+    background-color: #4d0000;
+    /*background-color: #fcdc88;*/
+    border-radius: 15px;
+    color: white;
+}
+
+.mgp-box{
+    width: 100%;
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+@media (max-width:992px){
+    .mgp-box{
+        font-size: 40px;
+    }
+}
+

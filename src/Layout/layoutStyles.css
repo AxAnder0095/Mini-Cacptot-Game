@@ -1,0 +1,33 @@
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    /*background-image: url("../../src/imgs/gold-saucer.jpg");*/
+    /*background-size:     cover;*/
+    /*background-position: center;*/
+    /*background-repeat:   no-repeat;*/
+}
+
+.main-box{
+    height: 50%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    color: white;
+}
+
+@media (max-width:1400px){
+    .main-box{
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media (max-width:992px){
+    .main-box{
+        height: 35%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,224 @@
+#start-button, #reset-button {
+    color: white;
+    background-color: #4d0000;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Montserrat', Helvetica, serif;
+    margin-left: 5px;
+    border: none;
+}
+
+#start-button:hover, #reset-button:hover {
+    background-color: #850303;
+}
+
+#score-screen{
+    color: #edb705;
+    font-family: "Cinzel", Helvetica, serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.board-container {
+    height: 100%;
+    width: 100%;
+}
+
+#board{
+    display: none;
+    height: 80%;
+    width: 90%;
+
+}
+
+.top-board{
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 10px;
+    justify-content: end;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.bottom-board{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.left-arrows{
+    display: grid;
+    grid-template-rows: repeat(3, 70px);
+    gap: 10px;
+}
+
+.arrow-left{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.cactpot-board {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 10px;
+    justify-content: end;
+}
+
+
+.circle {
+    background-color: #fafafa;
+    border: 5px solid #fcdc88;
+    color: red;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', Helvetica, serif;
+    font-size: 26px;
+}
+
+.circle:hover {
+    /*background-color: #bfbfbf;*/
+}
+
+.circle-button{
+    font-size: 26px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #fcdc88;
+    border: 5px solid white;
+    color: #fcdc88;
+}
+
+.circle-button:hover{
+    /*background-color: #d1b56f;*/
+}
+
+.number{
+    display: none;
+}
+
+.top-arrow-buttons, .left-arrow-buttons{
+    border: 2px rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: 0.3s;
+}
+
+.top-arrow-buttons:hover, .left-arrow-buttons:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+
+@media (max-width:992px){
+    #start-button, #reset-button {
+        font-size: 8px;
+        width: 50px;
+        height: 20px;
+    }
+
+    #score-screen {
+        font-size: 10px;
+    }
+
+    .arrow {
+        font-size: 14px;
+    }
+
+    .arrow-left {
+        font-size: 14px;
+    }
+
+    .cactpot-board {
+        grid-template-columns: repeat(3, 40px);
+        gap: 10px;
+        justify-content: end;
+    }
+
+    .circle {
+        height: 40px;
+    }
+
+    .circle-button {
+        font-size: 14px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .top-board {
+        grid-template-columns: repeat(3, 40px);
+    }
+
+    .left-arrows {
+        grid-template-rows: repeat(3, 40px);
+    }
+
+    .arrow-left {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:767px){
+    #start-button, #reset-button {
+        font-size: 8px;
+        width: 50px;
+        height: 20px;
+    }
+
+    #score-screen {
+        font-size: 10px;
+    }
+
+    .arrow {
+        font-size: 12px;
+    }
+
+    .arrow-left {
+        font-size: 12px;
+    }
+
+    .cactpot-board {
+        grid-template-columns: repeat(3, 35px);
+    }
+
+    .circle {
+        height: 35px;
+    }
+
+    .circle-button {
+        font-size: 12px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .top-board {
+        grid-template-columns: repeat(3, 35px);
+    }
+
+    .left-arrows {
+        grid-template-rows: repeat(3, 35px);
+    }
+
+    .arrow-left {
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+

@@ -1,0 +1,29 @@
+#die-box{
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+#die-box:hover{
+    height: 110px;
+    width: 110px;
+    transition: 0.2s;
+}
+
+.header-box, .footer-box{
+    height: 10%;
+    font-family: "Cinzel", Helvetica, serif;
+}
+
+.cactpot-box{
+    height: 80%;
+}
+
+@media (max-width:1400px){
+    .content-area{
+        height: 100%;
+    }
+}
+
