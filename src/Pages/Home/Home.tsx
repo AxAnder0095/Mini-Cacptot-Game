@@ -14,7 +14,7 @@ function Home() {
                     <Payouts/>
                 </div>
             </div>
-            <div className='footer-box text-center mt-2'>Made by Pengy</div>
+            <div className='footer-box text-center mt-2'>Made by Alexander Brown</div>
         </div>
     )
 }
